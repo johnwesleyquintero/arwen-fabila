@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arwen Fabila - Dairy Farm SOPs</title>
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8; /* Increased line height for better readability */
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .header-container {
+            background: linear-gradient(to right, #9370db, #6495ed); /* Medium Purple to Cornflower Blue Gradient */
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 8px 8px 0 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid #fff; /* White border for profile pic */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            color: #fff; /* White text for name */
+            font-weight: 700;
+            font-size: 3.2em; /* Increased font size */
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em; /* Increased font size */
+            color: #e0e0e0; /* Lighter white for subtitle */
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            font-size: 0.95em;
+            color: #fff; /* White text for contact info */
+        }
+        .contact-info a, .contact-info span {
+            color: #fff; /* White for links */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #e0e0e0;
+        }
+        .contact-info i {
+            margin-right: 5px;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50; /* Dark Blue-Gray */
+            border-bottom: 2px solid #3498db; /* Blue */
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600; /* Increased font weight */
+            font-size: 2em; /* Increased font size */
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h2 i {
+            color: #6a1b9a;
+            font-size: 0.9em;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+            color: #3498db; /* Blue */
+            font-weight: 600; /* Increased font weight */
+            font-size: 1.4em; /* Increased font size */
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .experience-item p, .education-item p {
+            margin: 8px 0;
+            font-style: italic;
+            color: #666;
+        }
+        .experience-item ul {
+            list-style: none;
+            margin: 15px 0;
+            padding: 0;
+        }
+        .experience-item li {
+            margin-bottom: 10px; /* Increased margin for list items */
+            color: #444;
+            position: relative;
+            padding-left: 25px; /* Adjusted padding for bullet alignment */
+        }
+        .experience-item li:before {
+            content: "•";
+            color: #3498db; /* Blue */
+            position: absolute;
+            left: 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+        .skills-list li {
+            background-color: #f3e5f5;
+            color: #6a1b9a;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .skills-list li i {
+            font-size: 0.9em;
+        }
+        .skills-list li {
+            background-color: #eaf6fc;
+            color: #2c3e50;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 400;
+        }
+
+        /* Print Button Styles */
+        .print-button-wrapper {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .print-button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .print-button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 25px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .experience-item h3, .education-item h3 {
+                font-size: 1.1em;
+            }
+        }
+
+        /* Print Specific Styles */
+        @media print {
+            body {
+                background-color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                margin: 0;
+                padding: 20px; /* Adjust padding for print */
+                width: 100%;
+                max-width: none;
+            }
+            .print-button-wrapper {
+                display: none; /* Hide the print button when printing */
+            }
+            a {
+                color: inherit; /* Keep link color for print */
+                text-decoration: none; /* Remove underlines for cleaner print */
+            }
+            header, section, footer {
+                page-break-inside: avoid; /* Prevent sections from breaking across pages if possible */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <img src="public/Arwen_Fabila_DP.png" alt="Arwen Fabila Profile Picture" class="profile-pic">
+            <h1>ARWEN LORENZ LLUBIT FABILA</h1>
+            <p>Dairy Farm Worker</p>
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Lupon-Lupon, Hijo, Maco, Davao de Oro</span>
+                <a href="mailto:arwenfabila23@gmail.com"><i class="fas fa-envelope"></i> arwenfabila23@gmail.com</a>
+                <a href="https://www.linkedin.com/in/arwen-fabila-530678215/"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+                <a href="sop.html"><i class="fas fa-file-alt"></i> Dairy SOPs</a>
+                <a href="index.html" class="print-button"><i class="fas fa-home"></i> Back to Home</a>
+            </div>
+        </div>
+
+        <section id="sop-content">
+            <h2><i class="fas fa-file-alt"></i> Standard Operating Procedures (SOPs)</h2>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-recycle"></i> Implementation of Environmental Sanitation and Waste Systems</h3>
+                <ul>
+                    <li><strong>Daily Pen Cleaning:</strong> Regularly remove manure and soiled bedding from animal pens to maintain hygiene and prevent disease.</li>
+                    <li><strong>Waste Segregation:</strong> Separate organic waste (manure, feed scraps) from inorganic waste (plastics, medical supplies) for proper disposal or composting.</li>
+                    <li><strong>Disinfection Protocols:</strong> Implement a schedule for disinfecting milking parlors, equipment, and animal housing areas using approved sanitizers.</li>
+                    <li><strong>Water Quality Monitoring:</strong> Periodically test water sources for livestock and cleaning to ensure it meets quality standards.</li>
+                    <li><strong>Pest Control:</strong> Establish and maintain a pest control program to minimize flies, rodents, and other vectors in and around farm facilities.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-leaf"></i> Management of Forage Resources and Grazing Systems</h3>
+                <ul>
+                    <li><strong>Pasture Rotation:</strong> Implement a rotational grazing system to optimize pasture utilization, promote forage regrowth, and prevent overgrazing.</li>
+                    <li><strong>Forage Harvesting:</strong> Monitor forage maturity and weather conditions to determine optimal timing for cutting and baling hay or making silage.</li>
+                    <li><strong>Soil Testing & Fertilization:</strong> Conduct regular soil tests to assess nutrient levels and apply appropriate fertilizers to maintain healthy pasture and crop growth.</li>
+                    <li><strong>Weed Control:</strong> Identify and manage undesirable weeds in pastures and forage fields through mechanical or chemical methods.</li>
+                    <li><strong>Irrigation Management:</strong> Implement efficient irrigation practices to ensure adequate moisture for forage production, especially during dry periods.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-apple-alt"></i> Livestock Feeding Strategies and Nutritional Planning</h3>
+                <ul>
+                    <li><strong>Ration Formulation:</strong> Develop balanced feed rations for different animal groups (e.g., lactating cows, dry cows, heifers) based on their nutritional requirements and production goals.</li>
+                    <li><strong>Feed Storage:</strong> Store feed in dry, secure, and pest-free areas to prevent spoilage and contamination.</li>
+                    <li><strong>Feeding Schedule:</strong> Adhere to a consistent feeding schedule to minimize stress on animals and optimize feed intake.</li>
+                    <li><strong>Feed Intake Monitoring:</strong> Regularly monitor feed consumption and adjust rations as needed to maintain optimal body condition and milk production.</li>
+                    <li><strong>Water Access:</strong> Ensure continuous access to fresh, clean water for all livestock.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-hand-holding-water"></i> Milking Techniques, Equipment Use, and Handling Procedures</h3>
+                <ul>
+                    <li><strong>Pre-Milking Preparation:</strong> Clean and sanitize udders before milking to prevent contamination and stimulate milk let-down.</li>
+                    <li><strong>Milking Machine Attachment:</strong> Properly attach milking clusters to ensure comfortable and efficient milking, avoiding air leaks.</li>
+                    <li><strong>Post-Milking Teat Dipping:</strong> Apply an approved teat dip after milking to protect teats from infection.</li>
+                    <li><strong>Equipment Cleaning:</strong> Thoroughly clean and sanitize all milking equipment immediately after each milking session according to established protocols.</li>
+                    <li><strong>Machine Maintenance:</strong> Conduct routine checks and maintenance of milking machines to ensure optimal performance and prevent breakdowns.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-flask"></i> Milk Handling, Processing Standards, and GMP Compliance</h3>
+                <ul>
+                    <li><strong>Rapid Cooling:</strong> Immediately cool raw milk to below 4°C (39°F) after milking to inhibit bacterial growth.</li>
+                    <li><strong>Storage & Transport:</strong> Store milk in clean, sanitized bulk tanks and transport it in insulated tankers to maintain temperature and quality.</li>
+                    <li><strong>Hygiene Standards:</strong> Adhere to strict personal hygiene standards for all personnel involved in milk handling.</li>
+                    <li><strong>Record Keeping:</strong> Maintain accurate records of milk volume, temperature, and quality tests.</li>
+                    <li><strong>GMP Adherence:</strong> Ensure all milk handling and processing activities comply with Good Manufacturing Practices (GMP) and relevant food safety regulations.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3><i class="fas fa-heartbeat"></i> Animal Health Monitoring and Reproductive Care</h3>
+                <ul>
+                    <li><strong>Daily Health Checks:</strong> Conduct daily visual inspections of all animals for signs of illness, injury, or abnormal behavior.</li>
+                    <li><strong>Vaccination Program:</strong> Implement and maintain a comprehensive vaccination schedule to protect the herd from common diseases.</li>
+                    <li><strong>Parasite Control:</strong> Develop and execute a parasite control program, including deworming and external parasite management.</li>
+                    <li><strong>Reproductive Management:</strong> Monitor estrus cycles, perform artificial insemination (AI) or natural breeding, and conduct pregnancy checks.</li>
+                    <li><strong>Calf Care:</strong> Provide immediate and appropriate care for newborn calves, including colostrum feeding, navel disinfection, and housing.</li>
+                </ul>
+            </div>
+
+        </section>
+        
+        <footer>
+            <p style="text-align: center; margin-top: 40px; color: #777; font-size: 0.9em;">&copy; 2023 Arwen Fabila. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="print-button-wrapper">
+        <button id="printSOP" class="print-button">Print to PDF</button>
+    </div>
+
+    <script>
+        document.getElementById('printSOP').addEventListener('click', function() {
+            window.print();
+        });
+    </script>
+</body>
+</html>

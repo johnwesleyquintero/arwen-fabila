@@ -1,10 +1,19 @@
-# Arwen Fabila - Amazon Account Specialist
+# Arwen Fabila - Dairy Farm Worker
 
 ## About Me
 
-Highly motivated and results-driven Amazon Account Specialist with a proven track record in optimizing e-commerce operations for UK wholesale and retail arbitrage accounts. Possessing strong analytical skills and proficiency with key e-commerce tools like Jungle Scout, Keepachart, AZinsight, and Helium 10. Seeking a challenging role to leverage expertise in chat and call support, product sourcing, and administrative tasks to drive business growth and contribute to a dynamic team.
+A dependable and organized farmhand with expertise in daily farm operations and a solid grasp of animal welfare principles. Seeking a Dairy Farm Worker position to apply skills in milking, feeding, and general farm maintenance, contributing to a productive and high-quality dairy farm.
 
 ## Skills
+
+**Dairy Farming Skills:**
+*   Forage Resource Management
+*   Livestock Feeding & Nutrition
+*   Milking Techniques & Equipment
+*   Animal Health & Reproductive Care
+*   Environmental Sanitation & Waste Systems
+*   Dairy Industry Practices
+*   GMP Compliance
 
 **Technical Skills:**
 *   **E-commerce Tools:** Jungle Scout, Keepachart, AZinsight, Helium 10
@@ -26,15 +35,24 @@ Highly motivated and results-driven Amazon Account Specialist with a proven trac
 
 ## Experience
 
+**Dairy Cattle Production and Management** | NABUNTURAN FARMERS MULTIPURPOSE COOPERATIVE | PUROK 7, LIBASAN, NABUNTURAN, DAVAO DE ORO, PHILIPPINES
+*   CDA REGISTRATION NO: 9520-11001573 | LTO REGISTRATION NO: NDA-LTO-SMD-20230331-1315
+*   Mobile: +639971006038/ +639776861210 | Tel: (084) 227-0141
+*   Managed forage resources through silage making and grazing systems.
+*   Developed and implemented livestock feeding and nutritional plans.
+*   Performed daily milking processes, ensuring hygiene and efficiency.
+*   Monitored animal health and provided reproductive care.
+*   Implemented environmental sanitation and waste management systems.
+
 **Virtual Assistant / Amazon Account Specialist** | Agora Technology | 2022-2023
-*   Managed a UK wholesale account and retail arbitrage account on Amazon, ensuring operational efficiency and sales growth.
-*   Provided comprehensive chat and call support, resolving customer inquiries and issues promptly and professionally.
-*   Executed online product sourcing using advanced tools such as Jungle Scout, Keepachart, and AZinsight.
+*   Managed UK wholesale and retail arbitrage accounts on Amazon, optimizing operational efficiency and sales growth.
+*   Provided comprehensive chat and call support, resolving customer inquiries promptly and professionally.
+*   Executed online product sourcing using advanced tools (Jungle Scout, Keepachart, AZinsight).
 
 **Virtual Assistant / Amazon Account Specialist** | MiConnect Business Center | Apokon, Tagum City, Philippines | 2020 - 2022
-*   Handled both wholesale and retail arbitrage accounts on Amazon, contributing to revenue generation and account health.
+*   Handled wholesale and retail arbitrage accounts on Amazon, contributing to revenue generation and account health.
 *   Delivered effective chat and call support for various Amazon-related inquiries.
-*   Proficiently sourced products online utilizing industry-standard tools including Jungle Scout, Keepachart, AZinsight, and Helium 10.
+*   Proficiently sourced products online utilizing industry-standard tools (Jungle Scout, Keepachart, AZinsight, Helium 10).
 
 **Special Program for Employment of Students (SPES)** | Barangay Hall of Hijo | Hijo, Maco, Davao De Oro | 2016-2017
 *   Assisted with general administrative office works, maintaining organized records and schedules.
@@ -49,19 +67,19 @@ Highly motivated and results-driven Amazon Account Specialist with a proven trac
 
 **Elementary Education** | Anibongan Elementary School | Anibongan, Maco, Davao De Oro | S.Y. 2006-2007
 
-## Projects
+## Dairy Cattle Production And Management Certifications
 
-### [Project Name 1]
-*   **Description:** [Brief description of the project and its purpose]
-*   **Technologies Used:** [e.g., Next.js, Supabase, Vercel]
-*   **Link:** [Link to project (e.g., GitHub, live demo)]
-*   **Key Contributions:** [Your specific role and contributions to the project]
+All competencies, totaling 720 hours, gained directly from the National Dairy Authority (NDA), Southern Mindanao.
 
-### [Project Name 2]
-*   **Description:** [Brief description of the project and its purpose]
-*   **Technologies Used:** [e.g., Python, Flask, PostgreSQL]
-*   **Link:** [Link to project]
-*   **Key Contributions:** [Your specific role and contributions to the project]
+*   Foundations of Dairy Farming and Industry Practices
+*   Management of Forage Resources and Grazing Systems
+*   Livestock Feeding Strategies and Nutritional Planning
+*   Milking Techniques, Equipment Use, and Handling Procedures
+*   Animal Health Monitoring and Reproductive Care
+*   Milk Handling, Processing Standards, and GMP Compliance
+*   Operation and Upkeep of Farm Infrastructure and Equipment
+*   Implementation of Environmental Sanitation and Waste Systems
+*   On-Site Exposure to Multiple Dairy Farm Settings
 
 ## Contact
 
