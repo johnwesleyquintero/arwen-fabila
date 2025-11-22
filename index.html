@@ -189,22 +189,50 @@
 
         /* Media Queries for Responsiveness */
         @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .header-container {
+                padding: 20px 0;
+            }
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
             .container {
-                margin: 10px;
-                padding: 25px;
+                margin: 10px auto;
+                padding: 20px;
             }
             header h1 {
                 font-size: 2em;
             }
+            header p {
+                font-size: 1em;
+            }
             .contact-info {
                 flex-direction: column;
-                gap: 5px;
+                gap: 10px;
+                font-size: 0.9em;
+            }
+            section {
+                padding: 15px;
             }
             h2 {
                 font-size: 1.5em;
+                margin-bottom: 15px;
             }
             .experience-item h3, .education-item h3 {
                 font-size: 1.1em;
+            }
+            .experience-item ul, .skills-list {
+                margin: 10px 0;
+            }
+            .experience-item li {
+                padding-left: 20px;
+            }
+            .skills-list li {
+                font-size: 0.85em;
+                padding: 6px 10px;
             }
         }
 
