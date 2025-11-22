@@ -131,19 +131,11 @@ All competencies, totaling 720 hours, gained directly from the National Dairy Au
 
 ## Statement of Purpose
 
-Arwen's Statement of Purpose outlines a profound dedication and aspiration to serve as a committed and highly effective Dairy Farm Worker. It details a journey into dairy farming rooted in a deep-seated commitment to animal welfare, operational excellence, and the meticulous application of best practices for sustainable and productive dairy operations. The statement covers background and motivation, goals and objectives, specific plans and methodology, and the expected impact on economic, environmental, and social aspects of dairy farming.
+Arwen's Statement of Purpose, detailing their dedication and aspirations as a Dairy Farm Worker, can be found in full detail [here](dairy-farming-sop.html). It covers background and motivation, goals and objectives, specific plans and methodology, and the expected impact on economic, environmental, and social aspects of dairy farming.
 
 ## Standard Operating Procedures (SOPs)
 
-This section details the meticulous processes and best practices employed in daily dairy farm management, reflecting a commitment to animal welfare, environmental stewardship, and consistent production of high-quality dairy products. It ensures efficiency, hygiene, and sustainability across all operations. Key SOPs include:
-
-*   **Optimized Daily Dairy Farm Operations for Peak Productivity:** Morning preparation and cleaning, transfer to milking area, pre-milking feed preparation (silage strategy), and initiating milking process with sanitization.
-*   **Sustainable Environmental Sanitation and Waste Management Systems:** Daily pen cleaning, waste segregation, disinfection protocols, water quality monitoring, and pest control.
-*   **Efficient Forage Resource and Sustainable Grazing Systems Management:** Pasture rotation, forage harvesting, soil testing & fertilization, weed control, and irrigation management.
-*   **Advanced Livestock Feeding Strategies and Nutritional Planning:** Ration formulation, feed storage, feeding schedule, feed intake monitoring, and water access.
-*   **Precision Milking Techniques, Equipment Use, and Hygiene Procedures:** Pre-milking preparation, milking machine attachment, post-milking teat dipping, equipment cleaning, and machine maintenance.
-*   **Quality Milk Handling, Processing Standards, and GMP Compliance:** Rapid cooling, storage & transport, hygiene standards, record keeping, and GMP adherence.
-*   **Proactive Animal Health Monitoring and Comprehensive Reproductive Care:** Daily health checks, vaccination program, parasite control, reproductive management, and calf care.
+The comprehensive Standard Operating Procedures (SOPs) employed in daily dairy farm management, reflecting a commitment to animal welfare, environmental stewardship, and consistent production of high-quality dairy products, are detailed in full [here](dairy-farming-sop.html).
 
 ## Contact
 
