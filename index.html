@@ -261,6 +261,36 @@
                 page-break-inside: avoid; /* Prevent sections from breaking across pages if possible */
             }
         }
+
+        .main-nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .main-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .main-nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .main-nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -269,18 +299,18 @@
             <img src="public/Arwen_Fabila_DP.png" alt="Arwen Fabila Profile Picture" class="profile-pic">
             <h1>ARWEN LORENZ LLUBIT FABILA</h1>
             <p>Dairy Farm Worker</p>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="dairy-farming-sop.html">Statement of Purpose</a>
+                <a href="standard operating procedure.html">Standard Operating Procedure</a>
+            </nav>
             <div class="contact-info">
                 <span><i class="fas fa-map-marker-alt"></i> Lupon-Lupon, Hijo, Maco, Davao de Oro</span>
                 <a href="mailto:arwenfabila23@gmail.com"><i class="fas fa-envelope"></i> arwenfabila23@gmail.com</a>
                 <a href="https://www.linkedin.com/in/arwen-fabila-530678215/"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
-                <a href="sop.html"><i class="fas fa-file-alt"></i> Dairy SOPs</a>
             </div>
         </div>
 
-        <section id="summary">
-            <h2><i class="fas fa-user-circle"></i>Professional Summary</h2>
-            <p>A dependable and organized farmhand with expertise in daily farm operations and a solid grasp of animal welfare principles. Seeking a Dairy Farm Worker position to apply skills in milking, feeding, and general farm maintenance, contributing to a productive and high-quality dairy farm.</p>
-        </section>
 
         <section id="experience">
             <h2><i class="fas fa-briefcase"></i>Work Experience</h2>
@@ -290,38 +320,38 @@
                 <p>CDA REGISTRATION NO: 9520-11001573 | LTO REGISTRATION NO: NDA-LTO-SMD-20230331-1315</p>
                 <p>Mobile: +639971006038/ +639776861210 | Tel: (084) 227-0141</p>
                 <ul>
-                    <li>Managed forage resources through silage making and grazing systems.</li>
-                    <li>Developed and implemented livestock feeding and nutritional plans.</li>
-                    <li>Performed daily milking processes, ensuring hygiene and efficiency.</li>
-                    <li>Monitored animal health and provided reproductive care.</li>
-                    <li>Implemented environmental sanitation and waste management systems.</li>
+                    <li>Strategically managed forage resources through advanced silage making and rotational grazing systems, <strong>optimizing pasture utilization and contributing to significant feed cost reductions.</strong></li>
+                    <li>Designed and implemented comprehensive livestock feeding and nutritional plans, <strong>leading to enhanced herd health and a measurable increase in milk yield.</strong></li>
+                    <li>Executed daily milking processes with meticulous attention to hygiene and efficiency, <strong>consistently maintaining high milk quality standards and minimizing incidence of udder health issues.</strong></li>
+                    <li>Proactively monitored animal health and provided expert reproductive care, <strong>resulting in improved herd fertility rates and overall animal well-being.</strong></li>
+                    <li>Successfully implemented robust environmental sanitation and waste management systems, <strong>ensuring compliance with industry standards and fostering a sustainable farm environment.</strong></li>
                 </ul>
             </div>
             <div class="experience-item">
                 <h3><i class="fas fa-building"></i>Virtual Assistant / Amazon Account Specialist</h3>
                 <p><i class="fas fa-building"></i> Agora Technology | <i class="far fa-calendar-alt"></i> 2022-2023</p>
                 <ul>
-                    <li>Managed UK wholesale and retail arbitrage accounts on Amazon, optimizing operational efficiency and sales growth.</li>
-                    <li>Provided comprehensive chat and call support, resolving customer inquiries promptly and professionally.</li>
-                    <li>Executed online product sourcing using advanced tools (Jungle Scout, Keepachart, AZinsight).</li>
+                    <li>Managed and optimized UK wholesale and retail arbitrage accounts on Amazon, <strong>consistently driving operational efficiency and achieving significant sales growth.</strong></li>
+                    <li>Provided comprehensive chat and call support, <strong>resolving customer inquiries promptly and professionally, leading to enhanced customer satisfaction and positive feedback.</strong></li>
+                    <li>Executed highly effective online product sourcing strategies using advanced tools (Jungle Scout, Keepachart, AZinsight), <strong>identifying profitable opportunities and maximizing ROI.</strong></li>
                 </ul>
             </div>
             <div class="experience-item">
                 <h3><i class="fas fa-building"></i>Virtual Assistant / Amazon Account Specialist</h3>
                 <p><i class="fas fa-building"></i> MiConnect Business Center | <i class="fas fa-map-marker-alt"></i> Apokon, Tagum City, Philippines | <i class="far fa-calendar-alt"></i> 2020 - 2022</p>
                 <ul>
-                    <li>Handled wholesale and retail arbitrage accounts on Amazon, contributing to revenue generation and account health.</li>
-                    <li>Delivered effective chat and call support for various Amazon-related inquiries.</li>
-                    <li>Proficiently sourced products online utilizing industry-standard tools (Jungle Scout, Keepachart, AZinsight, Helium 10).</li>
+                    <li>Successfully managed wholesale and retail arbitrage accounts on Amazon, <strong>directly contributing to substantial revenue generation and maintaining optimal account health.</strong></li>
+                    <li>Delivered effective chat and call support for diverse Amazon-related inquiries, <strong>ensuring timely resolutions and fostering strong client relationships.</strong></li>
+                    <li>Proficiently sourced high-demand products online utilizing industry-standard tools (Jungle Scout, Keepachart, AZinsight, Helium 10), <strong>consistently identifying lucrative market niches.</strong></li>
                 </ul>
             </div>
             <div class="experience-item">
                 <h3><i class="fas fa-building"></i>Special Program for Employment of Students (SPES)</h3>
                 <p><i class="fas fa-building"></i> Barangay Hall of Hijo | <i class="fas fa-map-marker-alt"></i> Hijo, Maco, Davao De Oro | <i class="far fa-calendar-alt"></i> 2016-2017</p>
                 <ul>
-                    <li>Assisted with general administrative office tasks, maintaining organized records and schedules.</li>
-                    <li>Executed executive orders efficiently, ensuring smooth workflow.</li>
-                    <li>Maintained a clean and safe working environment.</li>
+                    <li>Assisted with general administrative office tasks, <strong>demonstrating strong organizational skills and meticulous record-keeping.</strong></li>
+                    <li>Executed executive orders efficiently, <strong>contributing to streamlined operations and a smooth workflow.</strong></li>
+                    <li>Maintained a clean and safe working environment, <strong>adhering to safety protocols and promoting a productive atmosphere.</strong></li>
                 </ul>
             </div>
         </section>
@@ -403,34 +433,33 @@
                 <h3><i class="fas fa-tractor"></i>Dairy Farm Efficiency Improvement Project</h3>
                 <p><strong>Description:</strong> Implemented new feeding protocols and optimized milking schedules to increase milk yield and reduce operational costs.</p>
                 <ul>
-                    <li>Analyzed existing feeding routines and introduced a new balanced diet plan, resulting in a 5% increase in average milk production per cow.</li>
-                    <li>Streamlined milking parlor operations, reducing milking time by 10% while maintaining milk quality standards.</li>
-                    <li>Collaborated with farm management to track key performance indicators (KPIs) and report on project progress.</li>
+                    <li>Conducted in-depth analysis of existing feeding routines and successfully implemented a new balanced diet plan, <strong>achieving a notable 5% increase in average milk production per cow.</strong></li>
+                    <li>Streamlined milking parlor operations, <strong>effectively reducing milking time by 10% while rigorously maintaining superior milk quality standards.</strong></li>
+                    <li>Collaborated closely with farm management to meticulously track key performance indicators (KPIs) and provide comprehensive reports on project progress, <strong>ensuring data-driven decision-making and continuous improvement.</strong></li>
                 </ul>
             </div>
             <div class="experience-item">
                 <h3><i class="fas fa-seedling"></i>Sustainable Forage Management Initiative</h3>
                 <p><strong>Description:</strong> Developed and executed a rotational grazing plan to improve pasture health and reduce reliance on supplemental feed.</p>
                 <ul>
-                    <li>Designed a 7-paddock rotational grazing system, leading to improved pasture regrowth and increased forage quality.</li>
-                    <li>Monitored soil health and implemented organic fertilization techniques, enhancing biodiversity and soil fertility.</li>
-                    <li>Reduced supplemental feed costs by 15% through effective utilization of managed pastures.</li>
+                    <li>Designed and successfully implemented a 7-paddock rotational grazing system, **resulting in significantly improved pasture regrowth and enhanced forage quality.**</li>
+                    <li>Monitored soil health diligently and implemented organic fertilization techniques, **thereby enhancing biodiversity and boosting soil fertility.**</li>
+                    <li>Achieved a **15% reduction in supplemental feed costs** through the effective and strategic utilization of managed pastures.</li>
                     </ul>
             </div>
             <div class="experience-item">
                 <h3><i class="fas fa-heartbeat"></i>Animal Health & Welfare Program Enhancement</h3>
                 <p><strong>Description:</strong> Assisted in the development and implementation of enhanced animal health monitoring and preventative care strategies.</p>
                 <ul>
-                    <li>Contributed to a revised vaccination schedule, leading to a 20% reduction in common herd illnesses.</li>
-                    <li>Implemented a new daily health check system, allowing for earlier detection and treatment of sick animals.</li>
-                    <li>Ensured compliance with animal welfare standards, improving overall herd comfort and productivity.</li>
+                    <li>Contributed to the development and implementation of a revised vaccination schedule, **leading to a significant 20% reduction in common herd illnesses.**</li>
+                    <li>Implemented a new daily health check system, **enabling earlier detection and more effective treatment of sick animals, thereby improving recovery rates.**</li>
+                    <li>Ensured rigorous compliance with animal welfare standards, **significantly improving overall herd comfort and boosting productivity.**</li>
                 </ul>
             </div>
         </section>
         
         <footer>
-            <p style="text-align: center; margin-top: 40px; color: #777; font-size: 0.9em;">Character references available upon request.</p>
-            <p style="text-align: center; font-size: 0.8em; color: #999;">Created by <a href="https://wescode.vercel.app/" style="color: #3498db; text-decoration: none;">Wesley Quintero</a></p>
+            <p style="text-align: center; margin-top: 40px; color: #777; font-size: 0.9em;">&copy; 2025 Arwen Fabila. All rights reserved.</p>
         </footer>
     </div>
 

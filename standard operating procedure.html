@@ -262,6 +262,37 @@
             }
         }
     </style>
+    <style>
+        .main-nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .main-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .main-nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .main-nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -269,20 +300,28 @@
             <img src="public/Arwen_Fabila_DP.png" alt="Arwen Fabila Profile Picture" class="profile-pic">
             <h1>ARWEN LORENZ LLUBIT FABILA</h1>
             <p>Dairy Farm Worker</p>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="dairy-farming-sop.html">Statement of Purpose</a>
+                <a href="standard operating procedure.html">Standard Operating Procedure</a>
+            </nav>
             <div class="contact-info">
                 <span><i class="fas fa-map-marker-alt"></i> Lupon-Lupon, Hijo, Maco, Davao de Oro</span>
                 <a href="mailto:arwenfabila23@gmail.com"><i class="fas fa-envelope"></i> arwenfabila23@gmail.com</a>
                 <a href="https://www.linkedin.com/in/arwen-fabila-530678215/"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
-                <a href="sop.html"><i class="fas fa-file-alt"></i> Dairy SOPs</a>
-                <a href="index.html" class="print-button"><i class="fas fa-home"></i> Back to Home</a>
             </div>
         </div>
 
         <section id="sop-content">
             <h2><i class="fas fa-file-alt"></i> Standard Operating Procedures (SOPs)</h2>
+            <p style="margin-top: 10px; margin-bottom: 30px; color: #555; text-align: justify;">
+                These Standard Operating Procedures (SOPs) outline the meticulous processes and best practices employed in daily dairy farm management.
+                They reflect a commitment to animal welfare, environmental stewardship, and the consistent production of high-quality dairy products,
+                ensuring efficiency, hygiene, and sustainability across all operations.
+            </p>
 
             <div class="experience-item">
-                <h3><i class="fas fa-calendar-day"></i> Daily Dairy Farm Operations</h3>
+                <h3><i class="fas fa-calendar-day"></i> Optimized Daily Dairy Farm Operations for Peak Productivity</h3>
                 <ul>
                     <li><strong>Morning Preparation and Cleaning:</strong> Early each morning, prepare materials for cleaning the stall-fences and environment. This includes gathering a shovel (Pala) and collecting cow manure (Stall-tae) for delivery to filtration tanks for water segregation. Afterwards, clean the environment thoroughly using a water pump.</li>
                     <li><strong>Transfer to Milking Area:</strong> Following the cleaning process, transfer the cows to the designated milking area for their milking procedure.</li>
@@ -292,7 +331,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-recycle"></i> Implementation of Environmental Sanitation and Waste Systems</h3>
+                <h3><i class="fas fa-recycle"></i> Sustainable Environmental Sanitation and Waste Management Systems</h3>
                 <ul>
                     <li><strong>Daily Pen Cleaning:</strong> Regularly remove manure and soiled bedding from animal pens to maintain hygiene and prevent disease.</li>
                     <li><strong>Waste Segregation:</strong> Separate organic waste (manure, feed scraps) from inorganic waste (plastics, medical supplies) for proper disposal or composting.</li>
@@ -303,7 +342,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-leaf"></i> Management of Forage Resources and Grazing Systems</h3>
+                <h3><i class="fas fa-leaf"></i> Efficient Forage Resource and Sustainable Grazing Systems Management</h3>
                 <ul>
                     <li><strong>Pasture Rotation:</strong> Implement a rotational grazing system to optimize pasture utilization, promote forage regrowth, and prevent overgrazing.</li>
                     <li><strong>Forage Harvesting:</strong> Monitor forage maturity and weather conditions to determine optimal timing for cutting and baling hay or making silage.</li>
@@ -314,7 +353,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-apple-alt"></i> Livestock Feeding Strategies and Nutritional Planning</h3>
+                <h3><i class="fas fa-apple-alt"></i> Advanced Livestock Feeding Strategies and Nutritional Planning</h3>
                 <ul>
                     <li><strong>Ration Formulation:</strong> Develop balanced feed rations for different animal groups (e.g., lactating cows, dry cows, heifers) based on their nutritional requirements and production goals.</li>
                     <li><strong>Feed Storage:</strong> Store feed in dry, secure, and pest-free areas to prevent spoilage and contamination.</li>
@@ -325,7 +364,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-hand-holding-water"></i> Milking Techniques, Equipment Use, and Handling Procedures</h3>
+                <h3><i class="fas fa-hand-holding-water"></i> Precision Milking Techniques, Equipment Use, and Hygiene Procedures</h3>
                 <ul>
                     <li><strong>Pre-Milking Preparation:</strong> Clean and sanitize udders before milking to prevent contamination and stimulate milk let-down.</li>
                     <li><strong>Milking Machine Attachment:</strong> Properly attach milking clusters to ensure comfortable and efficient milking, avoiding air leaks.</li>
@@ -336,7 +375,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-flask"></i> Milk Handling, Processing Standards, and GMP Compliance</h3>
+                <h3><i class="fas fa-flask"></i> Quality Milk Handling, Processing Standards, and GMP Compliance</h3>
                 <ul>
                     <li><strong>Rapid Cooling:</strong> Immediately cool raw milk to below 4°C (39°F) after milking to inhibit bacterial growth.</li>
                     <li><strong>Storage & Transport:</strong> Store milk in clean, sanitized bulk tanks and transport it in insulated tankers to maintain temperature and quality.</li>
@@ -347,7 +386,7 @@
             </div>
 
             <div class="experience-item">
-                <h3><i class="fas fa-heartbeat"></i> Animal Health Monitoring and Reproductive Care</h3>
+                <h3><i class="fas fa-heartbeat"></i> Proactive Animal Health Monitoring and Comprehensive Reproductive Care</h3>
                 <ul>
                     <li><strong>Daily Health Checks:</strong> Conduct daily visual inspections of all animals for signs of illness, injury, or abnormal behavior.</li>
                     <li><strong>Vaccination Program:</strong> Implement and maintain a comprehensive vaccination schedule to protect the herd from common diseases.</li>
@@ -360,7 +399,7 @@
         </section>
         
         <footer>
-            <p style="text-align: center; margin-top: 40px; color: #777; font-size: 0.9em;">&copy; 2023 Arwen Fabila. All rights reserved.</p>
+            <p style="text-align: center; margin-top: 40px; color: #777; font-size: 0.9em;">&copy; 2025 Arwen Fabila. All rights reserved.</p>
         </footer>
     </div>
 
